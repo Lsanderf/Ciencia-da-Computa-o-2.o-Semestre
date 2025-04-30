@@ -11,7 +11,7 @@ class Avo_certo {
             if (N == 0 && K == 0) break; // Condição de parada
 
             Map<Integer, Integer> freq = new HashMap<>(); // Mapa para contar ocorrências
-
+              
             for (int i = 0; i < N * K; i++) {
                 int num = sc.nextInt();
                 freq.put(num, freq.getOrDefault(num, 0) + 1);
