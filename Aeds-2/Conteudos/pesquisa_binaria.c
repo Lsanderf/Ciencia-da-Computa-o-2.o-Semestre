@@ -19,7 +19,8 @@ void busca(int seq[], int resposta, int tam){
         }   
     contador++;
     }
-    if(achou){printf("Numero escolhido: %d\n", resposta);
+    if(achou){
+    printf("Numero escolhido: %d\n", resposta);
     printf("Numero achado: %d\n", seq[meio]);
     printf("Posicao do numero achado: %d\n", meio);
     printf("Quantidade de vezes que o arranjo foi dividido: %d\n", contador);
