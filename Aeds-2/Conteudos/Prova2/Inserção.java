@@ -20,7 +20,7 @@ public class Inserção {
                 seq[j + 1] = seq[j];
                 j--;
             }
-            seq[j + 1] = chave;
+            seq[j+1] = chave;
         }
 
         for (int i = 0; i < 4; i++) {
