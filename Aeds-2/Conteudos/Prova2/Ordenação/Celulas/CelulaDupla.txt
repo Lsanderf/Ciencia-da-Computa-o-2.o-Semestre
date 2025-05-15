@@ -1,0 +1,12 @@
+void meiose(){
+    celula* atual = inicio;
+    while(atual != null){
+            Celula* nova = (Celula*) malloc(sizeof(Celula));
+            nova->elemento = atual->elemento/2;
+            atual->elemento = atual->elemento/2;
+            
+            nova->prox = atual->prox;
+
+            
+    }
+}
